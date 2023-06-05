@@ -1,5 +1,5 @@
 ## Kubectl
-kubectl config view
+kubectl config view \
 kubectl get nodes
 
 
@@ -16,7 +16,7 @@ kubectl get pods \
 kubectl get pods -o yaml \
 kubectl describe pods <pod> 
 
-running command in pod \
+### running command in pod 
 kubectl exec <pod> -- <linux command>
 
 
