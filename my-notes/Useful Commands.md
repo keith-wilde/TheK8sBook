@@ -21,13 +21,12 @@ kubectl exec <pod> -- <linux command>
 
 
 ## Services
-Show Service 
 kubectl get svc 
 
 ## Ingresses
 
 ## Deployments
-kubectl get deploy <deployment-name>
+kubectl get deploy <deployment-name> \
 kubectl describe deploy <deployment-name>
 
 
