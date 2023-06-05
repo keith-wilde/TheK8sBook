@@ -10,13 +10,13 @@ kubectl get nodes
 k3d cluster list
 
 ## Pods
-kubectl explain pods --recursive
-kubectl explain pod.spec.restartPolicy
-kubectl get pods
-kubectl get pods -o yaml
-kubectl describe pods <pod>
+kubectl explain pods --recursive \
+kubectl explain pod.spec.restartPolicy \
+kubectl get pods \
+kubectl get pods -o yaml \
+kubectl describe pods <pod> 
 
-running command in pod
+running command in pod \
 kubectl exec <pod> -- <linux command>
 
 
